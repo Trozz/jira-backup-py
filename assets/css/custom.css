@@ -1,0 +1,36 @@
+/* Custom styles for Jira Backup Python documentation */
+
+/* Improve code block styling */
+pre {
+  background-color: #f6f8fa;
+  border: 1px solid #e1e4e8;
+}
+
+.highlight {
+  background-color: transparent;
+}
+
+/* Add spacing to navigation items */
+.nav-list .nav-list-item {
+  margin-bottom: 0.25rem;
+}
+
+/* Style for feature list on homepage */
+.feature-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.feature-list li {
+  margin-bottom: 0.5rem;
+  padding-left: 1.5rem;
+  position: relative;
+}
+
+.feature-list li::before {
+  content: "✓";
+  position: absolute;
+  left: 0;
+  color: #28a745;
+  font-weight: bold;
+}
