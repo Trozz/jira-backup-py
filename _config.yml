@@ -1,6 +1,6 @@
 title: Jira Backup Python
 description: A Python-based tool for backing up Jira and Confluence to multiple cloud storage providers
-theme: just-the-docs
+remote_theme: just-the-docs/just-the-docs@v0.8.2
 
 url: https://yourusername.github.io # Update with your GitHub username
 baseurl: /jira-backup-py
@@ -50,6 +50,8 @@ color_scheme: light
 
 plugins:
   - jekyll-seo-tag
+  - jekyll-remote-theme
+  - jekyll-include-cache
 
 kramdown:
   syntax_highlighter_opts:
